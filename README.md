@@ -1,5 +1,4 @@
-# gesturemaster
-A Python-based system for controlling various computer functions using real-time hand gestures, built with OpenCV and MediaPipe.
+
 Neutral Mode (N) State: Default state when no specific action is being performed. Finger Gesture: No fingers are raised ([0, 0, 0, 0, 0]). Usage: Acts as a resting mode. Resets any active mode when a neutral gesture is detected.
 Scroll Mode (Scroll) Gesture to Enter:
 Index finger raised alone ([0, 1, 0, 0, 0]), or Index and middle fingers raised ([0, 1, 1, 0, 0]). Actions:
